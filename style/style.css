@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* width: 1362px; */
+    width: 1345px;
+    font-family: "Azeret Mono", monospace;
+    
+}
+              /* Awlad.H */
+.Optional-Container{
+display: flex;
+justify-content: space-between;
+width: 80%;
+margin: 0 auto;
+margin-top: 50px;
+font-family: Azeret Mono;
+}
+.Optional-Content{
+height: 33px;
+color: rgb(13, 19, 33);
+font-size: 28px;
+font-weight: 800;
+text-align: center;
+margin-top: 5px;
+}
+.Optional-btn{
+ color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+padding: 10px;
+border-radius: 8px;
+opacity: 0.8;
+font-family: Azeret Mono;
+}
+
+            /* Banner Styles */
+
+.banner-container{
+    width: 1343px;
+    height: 600px;
+    margin-top: 40px;
+    background-image: url('../images/Hero-bg.png')
+}
+.banner-content{
+    width:70%;
+    margin: 0 auto;
+    height: 600px;
+}
+.banner-details{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.banner-content img{
+    margin-top: 25px;
+}
+.banner-text-content{
+    color: rgb(13, 19, 33);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 58px;
+    text-align: center;
+    font-family: Azeret Mono;
+    margin-top: 26px;
+}
+.banner-text-description{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+font-family: Azeret Mono;
+opacity: 0.7;
+margin-top: 16px;
+}
+.banner-btn{
+margin: 32px 0px;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+font-family: Azeret Mono;
+padding: 10px;
+}
+
+/* Why-Web-Development-Styles */
+
+.web-frame-container{
+margin-top: 140px;
+width: 1343px;
+height: 1030px;
+}
+.web-frame-content{
+background: rgba(13, 19, 33, 0.02); 
+width: 60%;
+margin: 0 auto;
+height: 1030px;
+}
+.web-frame-hadding-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 35px 20px;
+    
+}
+.web-hadding-text-content{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+}
+.web-hadding-text-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+margin-top: 15px;
+opacity: 0.7;
+}
+
+        /* Web-Step-1-style */
+    
+.web-step-1-content{
+justify-content: space-between;
+display: flex;
+margin: 47px 20px;
+background-color: #FCFCFD;
+color: #FEFEFE;
+}
+.web-text-step-1-container{
+width: 477px;
+height: 219px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.web-text-step-1-content{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+margin: 15px 8px;
+}
+.web-text-step-1-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+opacity:0.7;
+margin-left: 8px;
+}
+.web-text-step-1-btn{
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+width: 140px;
+height: 47px;
+padding: 12px 20px 12px 20px;
+margin: 32px 15px;
+margin-left: 8px;
+font-weight: 600;
+font-family: Azeret Mono;
+}
+.web-text-step-1-btn:hover {
+    background-color: aqua;
+    width: 140px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 15px;
+    margin-left: 8px;
+    font-weight: 600;
+    font-family: Azeret Mono;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.web-text-step-2-content{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono; */
+font-size: 23px;
+font-weight: 700;
+line-height: 35px;
+text-align: left; */
+margin: 15px 8px;
+} 
+.web-text-step-2-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+opacity:0.7;
+margin-top: 10px;
+}
+.web-text-step-2-btn{
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+width: 140px;
+height: 47px;
+padding: 12px 20px 12px 20px;
+font-weight: 600;
+font-family: Azeret Mono;
+}
+
+            /* My_Inspiration_Section */
+
+.inspiration-container{
+width: 1343px;
+height: 528px;
+margin-top: 70px;
+}
+.inspiration-farame-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.inspiration-farame-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+.inspiration-text-content{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+}
+.inspiration-text-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+opacity: 0.7;
+margin-top: 10px;
+}
+.inspiration-video-content{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 38px;
+    background-color: black;
+}
+.video-content{
+    width: 100%;
+    height: 360px;
+  
+}
+
+            /* Currtent-Target-Section */
+.current-target-container{
+width: 60%;
+margin: 0 auto;
+height: 385px;
+margin-top: 100px;
+}
+.current-target-content{
+width: 70%;
+margin: 0 auto;
+text-align: center;
+}
+.current-target-text-content{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 30px;
+text-align: center;
+margin-top: 10px;
+}
+.current-target-text-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+opacity: 0.7;
+margin-top: 20px;
+}
+.current-target-container-step-2{
+width: 100%;
+margin: 0 auto;
+height: 240px;
+display:flex;
+margin-top: 25px;
+}
+.current-target-content-step-2{
+background-color:#FFF6F4;
+padding: 8px 8px;
+line-height: 26px;
+font-family: Azeret Mono;
+height: 220px;
+width: 33%;
+margin: 0 auto; 
+}
+.current-target-content-text{
+font-family: Azeret Mono;
+margin-top: 10px;
+}
+.current-target-description{
+font-family: Azeret Mono;
+margin-top: 10px;
+margin-bottom: 10px; 
+}
+.current-target-content-step-3{
+border-radius: 16px;
+background: rgba(0, 200, 232, 0.05);
+padding: 8px 8px;
+line-height: 26px;
+font-family: Azeret Mono;
+height: 220px;
+width: 33%;
+margin: 0 auto; 
+margin-left: 20px;
+
+}
+.current-target-content-text-1{
+font-family: Azeret Mono;
+margin-top: 10px;
+}
+.current-target-description-1{
+font-family: Azeret Mono;
+margin-top: 10px;
+margin-bottom: 10px; 
+}
+.current-target-content-step-4{
+/* background-color:FFFDF2; */
+border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+padding: 8px 8px;
+line-height: 26px;
+font-family: Azeret Mono;
+height: 220px;
+width: 33%;
+margin: 0 auto; 
+margin-left: 20px;
+}
+.current-target-content-text-2{
+font-family: Azeret Mono;
+margin-top: 10px;
+}
+.current-target-description-2{
+font-family: Azeret Mono;
+margin-top: 18px; 
+}
+
+            /* My-Next-Target */
+
+.naxt-target-container{
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.next-target-hadding-content{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Azeret Mono;
+}
+.next-target-hadding-text-content{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+margin-top: 15px;
+}
+.next-target-hadding-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 15px;
+}
+.next-target-hadding-container-text-images{
+margin-top: 25px;
+width:100%;
+height: 450px;
+}
+.next-target-hadding-content-text-images{
+display:flex;
+margin-top:25px;
+background-color:#fff;
+}
+.next-target-hadding-content-text-images img{
+width: 180px;
+height: 100px;;
+margin: 10px 10px;
+}
+.next-target-hadding-content-text{
+margin: 10px 12px;
+}
+.target-content-text{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+}
+.target-content-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+}
+.next-target-hadding-content-2-text-img{
+width: 100px;
+height: 80px;;
+margin: 10px 10px;
+    }
+.next-target-hadding-2-content-text{
+margin: 10px 12px;
+}
+.target-content-1-text{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 22px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+}
+.target-content-1-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left; 
+}
+
+/* support section styles */
+
+.support-container{
+width:70%;
+height:313px;
+margin-top: 50px;
+margin: 0 auto;
+margin-bottom: 40px;
+background-image: url('../images/handshake.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.support-content{
+    
+ weight:60%;
+ margin: 0 auto;
+ text-align: center;
+ padding: 17px 10px;
+}
+.support-text-content{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+padding: 10px 0px;
+margin-top:80px;
+}
+.support-text-description{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+margin: 5px 50px;
+opacity: 0.7;
+}
+.support-text-input{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+width:60%;
+height:40px;
+border-radius: 8px;
+padding:20px 15px;
+background: rgb(255, 255, 255);
+}
+.support-text-submit{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+padding:0px 18px;
+border-radius: 8px;
+height:45px;
+border: none;
+}
+.footer-section{
+width: 70%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+margin-top:30px;
+}
+.footer-text-section{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+padding:10px;
+}
+.footer-description-section{
+padding:10px;
+height:30px;
+weight:40px;
+   }
+.footer-description-section a{
+padding:5px;
+height:30px;
+weight:40px;
+}
+
+
+/* style footer section */
+#www.footer-section.com{
+
+}
